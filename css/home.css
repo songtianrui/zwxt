@@ -3,9 +3,76 @@
     margin:0 auto;
     border: 1px solid rgba(0,0,0,0.20);
 }
+.sadd{
+    width: 918px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px
+}
 .sadd>div{
     width: 440px;
     height: 224px;
     border: 1px solid rgba(0,0,0,0.20);
-
+    
+}
+.sadd>div>div{
+    width: 80%;
+    margin: 0 auto
+}
+.sadd>div .stit{
+    font-size: 24px;
+    margin-top: 41px;
+}
+.sadd>div .stit i{
+    font-size: 24px
+}
+.sadd>div .sdes{
+    font-size: 14px;
+    margin: 28px auto
+}
+.sadd>div .sbtn .stianjia{
+    font-size: 14px;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    background-color: #4E8FF2;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right
+}
+.szhibiao{
+    width: 918px;
+    border: 1px solid rgba(0,0,0,0.20);
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 60px
+}
+.szhibiao .stit{
+    height: 50px;
+    background: rgba(22,76,100,0.05);
+    line-height: 50px;
+    text-indent: 2em;
+    font-size: 14px
+}
+.szhibiao .scont{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0
+}
+.szhibiao .scont>div{
+    flex-grow: 1;
+    text-align: center
+}
+.szhibiao .scont>div>p:first-child{
+    font-size: 18px;
+color: rgba(0,0,0,0.50);
+}
+.szhibiao .scont>div>p:last-child{
+    font-size: 24px;
+color: #4E8FF2;
+margin-top: 24px
 }
