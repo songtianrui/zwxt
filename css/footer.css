@@ -4,12 +4,12 @@ footer{
     width: 100%;
     height: 110px;
 }
-.stab{
+.stabf{
     display: flex;
     justify-content: center;
     padding-top: 15px
 }
-.stab span{
+.stabf span{
     margin-left: 20px
 }
 .spower{
