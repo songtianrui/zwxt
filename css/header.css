@@ -1,10 +1,59 @@
 header{
     width: 100%;
     height: 60px;
+    position: relative
 }
 .logo{
     width:6.5% ;
-    height: 60px;
+    height: 36px;
     margin-left: 1%;
-    background: url("../images/logo.png") no-repeat center
+    background: url("../images/logo.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: 12px
 }
+.tab{
+    width: 20%;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.tab>div{
+    width: 25%;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    text-align: center
+}
+.tab>div span{
+    display: inline-block;
+    height: 58px;
+}
+.tab>div .tap{
+    border-bottom: 2px solid #4E8FF2;
+    color: #4E8FF2;
+}
+.info{
+    width: 15%;
+    height: 60px;
+    line-height: 60px
+}
+.info .message{
+    width: 28px;
+    height: 28px;
+
+}
+.info .message i{
+    font-size: 28px
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+.nicName{
+    margin-right: 19.2px
+}
+/* .info{
+    width:  ;
+} */

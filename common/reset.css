@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0
 }
-fl{
+.fl{
     float: left;
 }
-fr{
+.fr{
     float: right
 }
 .clearfix:after {
