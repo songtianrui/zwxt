@@ -1,0 +1,28 @@
+footer{
+    color: #4E8FF2;
+    font-size: 12px;
+    width: 100%;
+    height: 110px;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px
+}
+.tab span{
+    margin-left: 20px
+}
+.power{
+    width: 100%;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    margin: 12px 0
+}
+.copy{
+    width: 100%;
+    height: 17px;
+    line-height: 17px;
+    text-align: center
+
+}
