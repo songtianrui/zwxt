@@ -5,7 +5,7 @@ header{
     justify-content: space-between;
     box-shadow: 3px 3px 3px #f0f0f0
 }
-.logo{
+.slogo{
     width:130px;
     height: 40px;
     margin-left: 20px;
@@ -13,43 +13,43 @@ header{
     background-size: 100% 100%;
     margin-top: 10px
 }
-.tab{
+.stab{
     height: 60px;
     display: flex;
     justify-content: space-around
 }
-.tab>div{
+.stab>div{
     height: 60px;
     line-height: 58px;
     margin-right: 20px
 }
-.tab>div span{
+.stab>div span{
     display: inline-block;
     height: 58px;
 }
-.tab>div .tap{
+.stab>div .tap{
     border-bottom: 2px solid #4E8FF2;
     color: #4E8FF2;
 }
-.info{
+.sinfo{
     height: 60px;
     line-height: 60px;
     display: flex;
     justify-content: space-around;
 }
-.info .message{
+.sinfo .message{
     height: 28px;
 
 }
-.info .message i{
+.sinfo .message i{
     font-size: 28px
 }
-.avatar{
+.savatar{
     width: 30px;
     height: 30px;
     border-radius: 50%
 }
-.nicName{
+.snicName{
     margin-right: 19.2px
 }
 /* .info{
